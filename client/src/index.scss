@@ -1,0 +1,331 @@
+*{
+  font-size: medium;
+}
+
+#main {
+ margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 110px ;
+  min-height: 90vh;
+}
+
+
+#main:after { content:''; float:left;  }
+
+
+footer {
+clear:left;
+ 
+  background:brown;
+}
+
+
+ 
+ select {
+   width: max-content;
+ }  
+
+
+img {
+  display: block;
+  width: 100%;
+}
+
+
+
+#landing {
+  background: #fff;
+}
+
+#landing-text {
+  display: flex;
+  flex: 0 1 40vw;
+  height: 50vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+#landing-text h2 {
+  color: #888;
+}
+
+#landing-image {
+  background: url(https://ressources.regionsjob.com/seo/ObsJob/secretaire-de-direction.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+
+#dashboard-image {
+  background: url(https://d3rv1nmzvje89q.cloudfront.net/optimized_v5/2017/04/WEB-DASHBOARD-.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 60vh;
+  flex: 0 1 60vw;
+  margin: 0;
+}
+
+
+
+
+#header {
+  padding: 1.5rem;
+  text-align: center;
+  background: #333;
+  color: #fff;
+}
+
+#header h2 {
+  border-left: dotted 1px #fff;
+  border-right: dotted 1px #fff;
+  display: inline-block;
+  padding-right: 1rem;
+  padding-left: 1rem;
+}
+
+.container1 {
+
+  margin : 45px 45px 45px 45px ; 
+}
+
+
+
+
+.table{
+  
+  display: flex;
+  
+  justify-content: center;
+
+  align-items: center;
+
+  flex-direction: column;
+
+}
+
+h2{
+
+  
+
+  padding: 10px;
+
+  position: relative;
+
+}
+
+h1:before{
+
+ 
+
+  border-width: 10px;
+
+  border-style: solid;
+
+  border-color: #eee transparent transparent transparent;
+
+  position: absolute;
+
+  bottom: -20px;
+
+  left: calc(50% - 10px);
+
+}
+
+table{
+
+  width: 700px;
+ 
+  font-family: Sans-Serif;
+
+  box-shadow: 12px 5px 12px gray;
+
+}
+
+
+.table_container {
+ 
+  
+  justify-content: center;
+}
+
+table thead{
+
+  background-color: #333;
+
+  color: white;
+
+  text-align: center;
+
+  text-transform: lowercase;
+
+}
+
+table thead tr td{
+
+  padding: 10px;
+
+}
+
+table thead .special{
+
+  width: 30%;
+
+}
+
+table tbody{
+
+  background-color: #eee;
+
+  color: #111;
+
+  text-align: center;
+
+}
+
+table tbody tr td{
+
+  padding: 10px 20px;
+
+}
+
+table tbody img{
+
+  width: 50px;
+
+}
+
+table tbody .control{
+
+  display: inline-block;
+
+}
+
+.view,.delete{
+
+  padding: 1px 5px;
+
+  margin-bottom: 5px;
+
+  color: white;
+
+  font-weight: bold;
+
+  background-color: rgb(219,68,55);
+
+  user-select: none;
+
+}
+/* Screen Sizes 500px and Up */
+@media (min-width: 500px) {
+  #landing {
+    display: flex;
+    height: 100%;
+  }
+
+  #landing-text {
+    height: 60vh;
+  }
+
+  #landing-image {
+    height: 50vh;
+  }
+}
+
+#landing-image-employe {
+   background: url(https://www.fairobserver.com/wp-content/uploads/2017/08/Factory-workers-America-news-manufacturing-jobs-world-news-1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 50vh;
+  flex: 0 1 60vw;
+  margin: 0;
+
+}
+
+
+
+
+input {
+  
+ 
+  border-radius: 8px;
+  border-style: none;
+  border: 1px solid #e4e6e8;
+  transition: 0.1s ease;
+}
+
+input:hover {
+  border-color: palevioletred;
+}
+
+button {
+  margin: 0.8em;
+  padding: 1em;
+  border: 1px solid #e4e6e8;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.1s ease-in;
+}
+
+button:hover {
+  background-color: palevioletred;
+  color: white;
+}
+
+
+#create_demande {
+font-family: sans-serif;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+#create_demande input {
+  display: block;
+  min-width: 40%;
+  margin: 1em;
+  padding: 1em;
+  width: 35em;
+  border-radius: 8px;
+  border-style: none;
+  border: 1px solid #e4e6e8;
+  transition: 0.1s ease;
+}
+
+
+
+
+center input {
+  align-items: left;
+}
+.control-label {
+    color: lightblue;
+    font-size: 20px;
+}
+h1 {
+  color: #fff;
+  background: #4584e9;
+  font-size: 1.6em;
+  font-family: sans-serif;
+  padding: 20px;
+  width: 70vh;
+  margin: 12px auto;
+  text-align: center;
+  text-transform: lowercase;
+  border-radius: 5px;
+  font-weight: 200;
+}
+
+ td {
+    /* padding: .75rem; */
+    vertical-align: top;
+    border-top: 1px solid #dee2e6;
+}

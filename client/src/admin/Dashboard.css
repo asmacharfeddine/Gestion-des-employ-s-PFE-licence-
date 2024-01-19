@@ -1,0 +1,26 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+.all{
+    display: flex;
+    height: 500px ;
+}
+main.h1{
+    color: #004085;
+}
+main.landing-text {
+    background:#004085 ;
+    background-color: #004085;
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+} */
+.custom_color{
+    
+    background-color: #3c8dbc !important;
+}
